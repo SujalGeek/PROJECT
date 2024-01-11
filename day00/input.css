@@ -1,0 +1,23 @@
+#first{
+ background-color: aquamarine;
+  /* height: 20px;
+  width: 50px; */
+  text-align: center;
+  /* background-color: aqua;  */
+}
+#second{
+  height: 20px;
+  text-align: center;
+  background-color: blueviolet;
+}
+.class1{
+  text-align: end;
+  background-color: aqua;
+}
+#h2
+{
+  height:auto;
+  text-align: center;
+text-decoration: solid;
+background-color: #212fff;
+}
