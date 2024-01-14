@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.box{
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  text-align: center;
+  background-color: aquamarine;
+  display: inline-block;
+}
+/* #box1{
+  /* Jab hum huma box ko visible nhi karna tab hum display none ka use karta ha */
+  /* visibilty hidden woh space allocate toh karta hi hai but after using display none woh delete kar deta hai */
+  /* display: none;}*/

@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+}
+#first{
+  height: 50vh;
+  width: 30vw;
+  font-size: 0.5rem;
+  background-color: aquamarine;
+}
+.box{
+  height: 60px;
+  width:60px;
+  margin: 5px;
+  background-color: seagreen;
+}
+#box1{
+  position: static;
+}
+#box2{
+  /* Dekh bhai relative ma simple jaha se tera box move karega waha se woh move karega 
+  In what your place the box is it will start moving from there */
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+#box3{
+  /* Matlab page ke bhar se jaa rha hoga hota hai and sab cheez se bhr se jaa rha hota hai*/
+  position: absolute;
+  top: 20px;
+}
+#box4{
+  /* Ye bhi page ke bhar hota hai and it will not move bhai saheb */
+  position: fixed;
+  right: 20px;
+
+}
