@@ -1,0 +1,17 @@
+#my-label{
+  display: block;
+  text-align: center;
+  font-size: 50px;
+}
+#dec{
+  background: green;
+  text-align: center;
+}
+#inc{
+  background: green;
+  text-align: center;
+}
+#res{
+  background: green;
+  text-align: center;
+}
