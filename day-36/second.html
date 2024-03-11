@@ -7,8 +7,8 @@
   </head>
   <body>
     <h1>Sujal</h1>
-    <button>Start</button>
-    <button>Stop</button>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
     <script>
       const sayname = function () {
         console.log("US");
@@ -16,9 +16,11 @@
       const sayname3 = function () {
         console.log((document.querySelector("h1").innerHTML = "best teacher"));
       };
-
-      const changed = setTimeout(sayname, 2000);
-      clearTimeout(sayname3);
+      document.querySelector("#stop").addEventListener("click", function () {
+        clearTimeout(sayname3);
+      });
+      // const changed = setTimeout(sayname, 2000);
+      // clearTimeout(sayname3);
     </script>
   </body>
 </html>

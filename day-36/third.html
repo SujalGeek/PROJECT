@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Async in js</title>
+  </head>
+  <body>
+    <h1>Sujal</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <script>
+      const sayname = setInterval(function () {
+        console.log("Sujal");
+      }, 2000);
+
+      clearInterval(sayname, 2000);
+    </script>
+  </body>
+</html>
